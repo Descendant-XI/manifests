@@ -19,8 +19,8 @@
           revision="refs/heads/eleven-staging" />
 
   <remote name="devices"
-          fetch="https://github.com/PotatoDevices"
-          revision="refs/heads/dumaloo-release" />
+          fetch="https://github.com/Descendant-Devices"
+          revision="refs/heads/eleven" />
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS" 
