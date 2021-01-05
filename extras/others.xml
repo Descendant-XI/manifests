@@ -8,6 +8,7 @@
   <project name="android_external_gptfdisk"     path="external/gptfdisk"     remote="lineage" />
 
   <!-- hardware repos -->
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
