@@ -1,7 +1,3 @@
-Descendant specificity document
-
-https://docs.google.com/document/d/1VnGGvwlsvM_9d2IzJn_D4Us55f8G6FgOd3NnsrkN8og/edit?usp=sharing
-
 To initialize your local repository, use this command:
 
 	repo init -u https://gitlab.com/descendant-xi/manifest.git -b eleven-staging
@@ -22,3 +18,5 @@ lunch descendant_codename-buildtype
 
 mka descendant
 ```
+
+Thanks to POSP and specifically Kshitij Gupta for supporting us in using POSP early AOSP bring-up as our "hardware equipped AOSP base".
