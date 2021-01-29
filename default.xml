@@ -15,7 +15,7 @@
           revision="refs/heads/dumaloo-release" />
 
   <remote name="descendant"
-          fetch="https://gitlab.com/descendant-xi"
+          fetch="https://github.com/descendant-xi"
           revision="refs/heads/eleven-staging" />
 
   <remote name="devices"
