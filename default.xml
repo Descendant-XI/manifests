@@ -37,6 +37,10 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote  name="pe-gitlab"
+           fetch="https://gitlab.pixelexperience.org"
+           revision="eleven" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

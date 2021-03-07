@@ -3,7 +3,7 @@
 <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage"/>
 <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage"/>
 <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage"/>
-<project name="android_external_ntfs-3g"      path="external/ntfs-3g"      remote="lineage" />
+<project path="external/ntfs-3g"   name="android_external_ntfs-3g"    remote="lineage" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
@@ -92,5 +92,9 @@
 
 <!-- FMRadio -->
 <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage"/>
+
+<!-- FaceUnlock -->
+<project path="external/faceunlock" name="android/external_faceunlock" remote="pe-gitlab"/>
+<project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="eleven"/>
 
 </manifest>
