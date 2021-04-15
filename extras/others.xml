@@ -97,4 +97,6 @@
 <project path="external/faceunlock" name="android/external_faceunlock" remote="pe-gitlab"/>
 <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="eleven"/>
 
+<!-- Stitch Image -->
+<project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0"/>
 </manifest>
