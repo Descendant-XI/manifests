@@ -30,6 +30,10 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-11.0-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-11.0-caf-msm8916" />
@@ -102,5 +106,19 @@
 <!-- Stitch Image -->
 <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0"/>
 
+<!-- Launcher shits -->
 <project path="frameworks/libs/systemui" name="statixos/android_frameworks_libs_systemui" remote="github" revision="11"/>
+
+<!-- Nfc stack -->
+<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+<project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
+<project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
+<project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
+<project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
+<project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-pn5xx" remote="lineage" />
+<project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-pn5xx" remote="lineage" />
+<project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-sn100x" remote="lineage" />
+<project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-sn100x" remote="lineage" />
+<project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
+
 </manifest>
