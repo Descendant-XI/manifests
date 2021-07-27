@@ -1,9 +1,11 @@
 <manifest>
 <!--  External  -->
-<project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage"/>
-<project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage"/>
-<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage"/>
-<project path="external/ntfs-3g"   name="android_external_ntfs-3g"    remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage"/>
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage"/>
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage"/>
+  <project path="external/ntfs-3g"   name="android_external_ntfs-3g"    remote="lineage" />
+  <project name="android_external_e2fsprogs"    path="external/e2fsprogs"    remote="lineage" />
+  <project name="android_external_gptfdisk"     path="external/gptfdisk"     remote="lineage" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
