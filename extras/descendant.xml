@@ -14,7 +14,7 @@
     <linkfile src="target"               dest="build/target" />
     <linkfile src="tools"                dest="build/tools" />
   </project>
-  <project name="bootable_recovery" path="bootable/recovery" remote="potato" revision="dumaloo-release" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="descendant" revision="eleven-staging" />
   <project name="build_soong"       path="build/soong"       remote="potato" groups="pdk,tradefed" >
     <linkfile src="root.bp"        dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
